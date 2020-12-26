@@ -1,0 +1,63 @@
+<html>
+  <head>
+      <title>
+    survey form
+  </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+  <div class="container">
+  <header class="header">
+    <h1 id="title" class="text-center"> Survey Form</h1>
+    <p id= "description">
+      Welcome to Our Survey page, Thank you for Viewing this Page</p>
+    <header>
+      <form id="survey-form">
+        
+      <div class="div1">
+        <label id="name-label" for="name">Name</label>
+        <input class="put"type="text" placeholder="Enter your name"required>
+      </div>
+      <div class="div1">
+        <label id="email-label" for="email">Email</label>
+        <input class="put"type="text"placeholder="Enter your email address"required>
+        </div>
+      <div class="div1">
+        <label id="number-label" for="number">Number</label>
+        <input class="put" type="text" placeholder="Enter your number">
+        <div> 
+          <p class="p1">What currently describes your situation?</p>
+          <label for=" situation">choose your Situation:</label>
+          <select id="dropdown" class="opt" name="situation">
+            <option valve="student">Student</option>
+            <option value="graduate">Graduate</option>
+            <option value="job(full time">Job(full time)</option>
+            <option value="job(part time)">Job(part time)</option>
+            <option value="rather not say">Rather not say</option></select>
+          </div>
+        <div>
+          <p class="p22">
+            Would you recommend this page to a freind?
+          </p>
+          <input type="radio" id="Yes,Sure"name="options" value="Yes,Sure" />                          <label for="yes,sure">Yes,Sure</label>                                                 
+          <input type="radio" id="no,i wont" name="options" value="no, i wont">
+                                                                               <label for="no,i wont">No, I wont</label>
+                                               </div>                                        <div>
+  <p class="p3"> What do you like about this page?</p>
+     <input type="checkbox" id="Everything" name="options" value="everything">
+          <label for="everything">Everything</label>
+          <input type="checkbox" id="nothing" name="options" vslue="nothing">
+          <label for ="nothing">Nothing</label>
+                                                                                                     </div>
+                               <div>
+                               <p class="p4"> Give us any suggestions on how to improve</p>
+                             <textarea id="suggestions" class="input-text" name="suggestions" placerholder="Enter your Suggestions here"required>Enter your suggesions here...</textarea>
+                               </div>
+                                                                                                                                          <div>
+                               
+  <button class="btn" type="submit">Submit</buton>                                                                                                                                      </div>
+                                                                                                     
+        
+                                                                                                     </form>
+    </body>
+</html>
